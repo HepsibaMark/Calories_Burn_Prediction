@@ -2,13 +2,13 @@
 
 A machine learning-based web application that predicts the estimated number of calories burned during exercise.
 
-## 🚀 Live Demo
+## 🔗 Project Repository
 
-👉 [Click here to use the Calories Burn Prediction App](PASTE_APP_LINK_HERE)
+👉 [View the project on GitHub](https://github.com/HepsibaMark/Calories_Burn_Prediction)
 
 ## 📌 Project Overview
 
-The system predicts calories burned based on:
+The system predicts calories burned based on the following input features:
 
 - Gender
 - Age
@@ -18,13 +18,13 @@ The system predicts calories burned based on:
 - Heart Rate
 - Body Temperature
 
-The project uses an **XGBoost Regression** model and a **Gradio** web interface.
+The project uses an **XGBoost Regression** model for prediction and a **Gradio** web interface for user interaction.
 
 ## 🧠 Machine Learning Model
 
 **Model:** XGBoost Regressor
 
-**Features:**
+### Features
 
 - Gender
 - Age
@@ -34,11 +34,13 @@ The project uses an **XGBoost Regression** model and a **Gradio** web interface.
 - Heart Rate
 - Body Temperature
 
-**Target:** Calories
+### Target
+
+- Calories
 
 ## 📊 Model Performance
 
-- **MAE:** 1.51 kcal
+- **Mean Absolute Error (MAE):** 1.51 kcal
 - **R² Score:** 0.9988
 
 ## 🛠️ Technologies Used
@@ -69,10 +71,7 @@ Calories_Burn_Prediction/
 └── .gitignore
 ```
 
-Then add the remaining sections:
-
-````markdown
-## ▶️ Run Locally
+## ▶️ Run the Application Locally
 
 ### 1. Clone the repository
 
@@ -98,7 +97,9 @@ pip install -r requirements.txt
 python app.py
 ```
 
-## 🔮 Workflow
+The Gradio application will open locally in your browser.
+
+## 🔮 Project Workflow
 
 ```text
 User Input
@@ -112,13 +113,27 @@ Calories Prediction
 Gradio Web Interface
 ```
 
+## 📈 Prediction Inputs
+
+The user provides:
+
+1. Gender
+2. Age
+3. Height
+4. Weight
+5. Exercise Duration
+6. Heart Rate
+7. Body Temperature
+
+The trained XGBoost model processes these inputs and provides the estimated calories burned.
+
 ## 👩‍💻 Author
 
 **Hepsiba Selvi M**
 
 B.Tech Artificial Intelligence and Data Science
 
-GitHub: https://github.com/HepsibaMark
+GitHub: [HepsibaMark](https://github.com/HepsibaMark)
 
 ## 📜 License
 
