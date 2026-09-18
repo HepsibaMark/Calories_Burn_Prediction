@@ -127,13 +127,13 @@ The user provides:
 
 The trained XGBoost model processes these inputs and provides the estimated calories burned.
 
-## 👩‍💻 Author
+## 👩‍💻 Authors
 
-**Hepsiba Selvi M**
-
+**Hepsiba Selvi M**  
 B.Tech Artificial Intelligence and Data Science
 
-GitHub: [HepsibaMark](https://github.com/HepsibaMark)
+**Yengula Pushpanjali**  
+B.Tech Artificial Intelligence and Data Science
 
 ## 📜 License
 
